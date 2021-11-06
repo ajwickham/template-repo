@@ -15,7 +15,7 @@ $(document).ready(function() {
     const response = triangle.checkType();
     $('#response').append(`<p>${response}</p>`);
   });  
-    $('#rectangle-area-form').submit(function(event) {
+  $('#rectangle-area-form').submit(function(event) {
     event.preventDefault();
     const length1 = parseInt($('#rect-length1').val());
     const length2 = parseInt($('#rect-length2').val());
